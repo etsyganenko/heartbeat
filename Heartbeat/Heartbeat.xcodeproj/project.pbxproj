@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D39A20E005DD2EB7BD6CDE1 /* Pods_Heartbeat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BDE575E68BC915A93EE5E6 /* Pods_Heartbeat.framework */; };
+		8A5BAB0F1D1134AF00DB7AF1 /* HBFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BAB0E1D1134AF00DB7AF1 /* HBFilter.swift */; };
+		8A5BAB111D11359B00DB7AF1 /* Filters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BAB101D11359B00DB7AF1 /* Filters.plist */; };
+		8A5BAB141D1146AE00DB7AF1 /* HBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BAB131D1146AE00DB7AF1 /* HBConstants.swift */; };
+		8A5BAB171D11490700DB7AF1 /* HBFilterParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BAB161D11490700DB7AF1 /* HBFilterParameter.swift */; };
+		8A5BAB1E1D11594B00DB7AF1 /* HBFilterParameterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BAB1C1D11594B00DB7AF1 /* HBFilterParameterCell.swift */; };
+		8A5BAB1F1D11594B00DB7AF1 /* HBFilterParameterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5BAB1D1D11594B00DB7AF1 /* HBFilterParameterCell.xib */; };
+		8AC945F51D0EEC1F00791FC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC945CF1D0EEC1F00791FC8 /* AppDelegate.swift */; };
+		8AC945F61D0EEC1F00791FC8 /* AudioFiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D01D0EEC1F00791FC8 /* AudioFiles.plist */; };
+		8AC945F81D0EEC1F00791FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D31D0EEC1F00791FC8 /* Assets.xcassets */; };
+		8AC945F91D0EEC1F00791FC8 /* Ana Lucia Fem.49 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D51D0EEC1F00791FC8 /* Ana Lucia Fem.49 High.wav */; };
+		8AC945FA1D0EEC1F00791FC8 /* Ana Lucia Fem.49 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D61D0EEC1F00791FC8 /* Ana Lucia Fem.49 Low.wav */; };
+		8AC945FB1D0EEC1F00791FC8 /* Bel Fem 28 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D71D0EEC1F00791FC8 /* Bel Fem 28 Low.wav */; };
+		8AC945FC1D0EEC1F00791FC8 /* Bel Fem. 28 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D81D0EEC1F00791FC8 /* Bel Fem. 28 High.wav */; };
+		8AC945FD1D0EEC1F00791FC8 /* Caio Male 26 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945D91D0EEC1F00791FC8 /* Caio Male 26 High.wav */; };
+		8AC945FE1D0EEC1F00791FC8 /* Caio Male 26 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945DA1D0EEC1F00791FC8 /* Caio Male 26 Low.wav */; };
+		8AC945FF1D0EEC1F00791FC8 /* Daniela Fem. 23 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945DB1D0EEC1F00791FC8 /* Daniela Fem. 23 Low.wav */; };
+		8AC946001D0EEC1F00791FC8 /* Daniela Fem.23 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945DC1D0EEC1F00791FC8 /* Daniela Fem.23 High.wav */; };
+		8AC946011D0EEC1F00791FC8 /* Felipe Male 28 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945DD1D0EEC1F00791FC8 /* Felipe Male 28 High.wav */; };
+		8AC946021D0EEC1F00791FC8 /* Filipe Male 28 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945DE1D0EEC1F00791FC8 /* Filipe Male 28 Low.wav */; };
+		8AC946031D0EEC1F00791FC8 /* Guto Male 37 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945DF1D0EEC1F00791FC8 /* Guto Male 37 High.wav */; };
+		8AC946041D0EEC1F00791FC8 /* Guto Male 37 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E01D0EEC1F00791FC8 /* Guto Male 37 Low.wav */; };
+		8AC946051D0EEC1F00791FC8 /* Jazzma Fem.24 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E11D0EEC1F00791FC8 /* Jazzma Fem.24 High.wav */; };
+		8AC946061D0EEC1F00791FC8 /* Jazzma Fem.24 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E21D0EEC1F00791FC8 /* Jazzma Fem.24 Low.wav */; };
+		8AC946071D0EEC1F00791FC8 /* Lili Female 44 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E31D0EEC1F00791FC8 /* Lili Female 44 High.wav */; };
+		8AC946081D0EEC1F00791FC8 /* Lili Female 44 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E41D0EEC1F00791FC8 /* Lili Female 44 Low.wav */; };
+		8AC946091D0EEC1F00791FC8 /* Pedro Male 24 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E51D0EEC1F00791FC8 /* Pedro Male 24 High.wav */; };
+		8AC9460A1D0EEC1F00791FC8 /* Pedro Male 24 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E61D0EEC1F00791FC8 /* Pedro Male 24 Low.wav */; };
+		8AC9460B1D0EEC1F00791FC8 /* Roberto Male 66 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E71D0EEC1F00791FC8 /* Roberto Male 66 High.wav */; };
+		8AC9460C1D0EEC1F00791FC8 /* Roberto Male 66 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E81D0EEC1F00791FC8 /* Roberto Male 66 Low.wav */; };
+		8AC9460D1D0EEC1F00791FC8 /* Thomaz Male 24 High.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945E91D0EEC1F00791FC8 /* Thomaz Male 24 High.wav */; };
+		8AC9460E1D0EEC1F00791FC8 /* Thomaz Male 24 Low.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945EA1D0EEC1F00791FC8 /* Thomaz Male 24 Low.wav */; };
+		8AC9460F1D0EEC1F00791FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945ED1D0EEC1F00791FC8 /* LaunchScreen.storyboard */; };
+		8AC946101D0EEC1F00791FC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC945EF1D0EEC1F00791FC8 /* Main.storyboard */; };
+		8AC946111D0EEC1F00791FC8 /* HBPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC945F21D0EEC1F00791FC8 /* HBPlayerCell.swift */; };
+		8AC946121D0EEC1F00791FC8 /* HBPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC945F31D0EEC1F00791FC8 /* HBPlayerView.swift */; };
+		8AC946131D0EEC1F00791FC8 /* HBPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC945F41D0EEC1F00791FC8 /* HBPlayerViewController.swift */; };
+		8AC946191D0EF02700791FC8 /* GNKContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC946161D0EF02700791FC8 /* GNKContext.swift */; };
+		8AC9461C1D0EF0E900791FC8 /* GNKObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC9461B1D0EF0E900791FC8 /* GNKObservableObject.swift */; };
+		8AC9461F1D0FE7ED00791FC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC9461D1D0FE7BE00791FC8 /* Info.plist */; };
+		8AC946221D103C1700791FC8 /* HBFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC946201D103C1700791FC8 /* HBFilterCell.swift */; };
+		8AC946231D103C1700791FC8 /* HBFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC946211D103C1700791FC8 /* HBFilterCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F3B4B8E00E6D343AEF6ACFF /* Pods-Heartbeat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartbeat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat.debug.xcconfig"; sourceTree = "<group>"; };
+		8A5BAB0E1D1134AF00DB7AF1 /* HBFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFilter.swift; sourceTree = "<group>"; };
+		8A5BAB101D11359B00DB7AF1 /* Filters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Filters.plist; sourceTree = "<group>"; };
+		8A5BAB131D1146AE00DB7AF1 /* HBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBConstants.swift; sourceTree = "<group>"; };
+		8A5BAB161D11490700DB7AF1 /* HBFilterParameter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFilterParameter.swift; sourceTree = "<group>"; };
+		8A5BAB1C1D11594B00DB7AF1 /* HBFilterParameterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFilterParameterCell.swift; sourceTree = "<group>"; };
+		8A5BAB1D1D11594B00DB7AF1 /* HBFilterParameterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBFilterParameterCell.xib; sourceTree = "<group>"; };
+		8AC9454D1D0E90DC00791FC8 /* Heartbeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartbeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC945CF1D0EEC1F00791FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AC945D01D0EEC1F00791FC8 /* AudioFiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AudioFiles.plist; sourceTree = "<group>"; };
+		8AC945D31D0EEC1F00791FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AC945D51D0EEC1F00791FC8 /* Ana Lucia Fem.49 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ana Lucia Fem.49 High.wav"; sourceTree = "<group>"; };
+		8AC945D61D0EEC1F00791FC8 /* Ana Lucia Fem.49 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ana Lucia Fem.49 Low.wav"; sourceTree = "<group>"; };
+		8AC945D71D0EEC1F00791FC8 /* Bel Fem 28 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bel Fem 28 Low.wav"; sourceTree = "<group>"; };
+		8AC945D81D0EEC1F00791FC8 /* Bel Fem. 28 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Bel Fem. 28 High.wav"; sourceTree = "<group>"; };
+		8AC945D91D0EEC1F00791FC8 /* Caio Male 26 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Caio Male 26 High.wav"; sourceTree = "<group>"; };
+		8AC945DA1D0EEC1F00791FC8 /* Caio Male 26 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Caio Male 26 Low.wav"; sourceTree = "<group>"; };
+		8AC945DB1D0EEC1F00791FC8 /* Daniela Fem. 23 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Daniela Fem. 23 Low.wav"; sourceTree = "<group>"; };
+		8AC945DC1D0EEC1F00791FC8 /* Daniela Fem.23 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Daniela Fem.23 High.wav"; sourceTree = "<group>"; };
+		8AC945DD1D0EEC1F00791FC8 /* Felipe Male 28 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Felipe Male 28 High.wav"; sourceTree = "<group>"; };
+		8AC945DE1D0EEC1F00791FC8 /* Filipe Male 28 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Filipe Male 28 Low.wav"; sourceTree = "<group>"; };
+		8AC945DF1D0EEC1F00791FC8 /* Guto Male 37 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Guto Male 37 High.wav"; sourceTree = "<group>"; };
+		8AC945E01D0EEC1F00791FC8 /* Guto Male 37 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Guto Male 37 Low.wav"; sourceTree = "<group>"; };
+		8AC945E11D0EEC1F00791FC8 /* Jazzma Fem.24 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Jazzma Fem.24 High.wav"; sourceTree = "<group>"; };
+		8AC945E21D0EEC1F00791FC8 /* Jazzma Fem.24 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Jazzma Fem.24 Low.wav"; sourceTree = "<group>"; };
+		8AC945E31D0EEC1F00791FC8 /* Lili Female 44 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Lili Female 44 High.wav"; sourceTree = "<group>"; };
+		8AC945E41D0EEC1F00791FC8 /* Lili Female 44 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Lili Female 44 Low.wav"; sourceTree = "<group>"; };
+		8AC945E51D0EEC1F00791FC8 /* Pedro Male 24 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pedro Male 24 High.wav"; sourceTree = "<group>"; };
+		8AC945E61D0EEC1F00791FC8 /* Pedro Male 24 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Pedro Male 24 Low.wav"; sourceTree = "<group>"; };
+		8AC945E71D0EEC1F00791FC8 /* Roberto Male 66 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Roberto Male 66 High.wav"; sourceTree = "<group>"; };
+		8AC945E81D0EEC1F00791FC8 /* Roberto Male 66 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Roberto Male 66 Low.wav"; sourceTree = "<group>"; };
+		8AC945E91D0EEC1F00791FC8 /* Thomaz Male 24 High.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Thomaz Male 24 High.wav"; sourceTree = "<group>"; };
+		8AC945EA1D0EEC1F00791FC8 /* Thomaz Male 24 Low.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Thomaz Male 24 Low.wav"; sourceTree = "<group>"; };
+		8AC945EE1D0EEC1F00791FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AC945F01D0EEC1F00791FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AC945F21D0EEC1F00791FC8 /* HBPlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPlayerCell.swift; sourceTree = "<group>"; };
+		8AC945F31D0EEC1F00791FC8 /* HBPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPlayerView.swift; sourceTree = "<group>"; };
+		8AC945F41D0EEC1F00791FC8 /* HBPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPlayerViewController.swift; sourceTree = "<group>"; };
+		8AC946161D0EF02700791FC8 /* GNKContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNKContext.swift; sourceTree = "<group>"; };
+		8AC9461B1D0EF0E900791FC8 /* GNKObservableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNKObservableObject.swift; sourceTree = "<group>"; };
+		8AC9461D1D0FE7BE00791FC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC946201D103C1700791FC8 /* HBFilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFilterCell.swift; sourceTree = "<group>"; };
+		8AC946211D103C1700791FC8 /* HBFilterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBFilterCell.xib; sourceTree = "<group>"; };
+		BE81AC0E0CE9F33133AAC51D /* Pods-Heartbeat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Heartbeat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat.release.xcconfig"; sourceTree = "<group>"; };
+		C0BDE575E68BC915A93EE5E6 /* Pods_Heartbeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Heartbeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AC9454A1D0E90DC00791FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D39A20E005DD2EB7BD6CDE1 /* Pods_Heartbeat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A5BAB0D1D11348F00DB7AF1 /* HBFilter */ = {
+			isa = PBXGroup;
+			children = (
+				8A5BAB0E1D1134AF00DB7AF1 /* HBFilter.swift */,
+			);
+			path = HBFilter;
+			sourceTree = "<group>";
+		};
+		8A5BAB121D11467500DB7AF1 /* HBConstants */ = {
+			isa = PBXGroup;
+			children = (
+				8A5BAB131D1146AE00DB7AF1 /* HBConstants.swift */,
+			);
+			path = HBConstants;
+			sourceTree = "<group>";
+		};
+		8A5BAB151D1148F200DB7AF1 /* HBFilterParameter */ = {
+			isa = PBXGroup;
+			children = (
+				8A5BAB161D11490700DB7AF1 /* HBFilterParameter.swift */,
+			);
+			path = HBFilterParameter;
+			sourceTree = "<group>";
+		};
+		8AC945441D0E90DC00791FC8 = {
+			isa = PBXGroup;
+			children = (
+				8AC945CE1D0EEC1F00791FC8 /* Heartbeat */,
+				8AC9454E1D0E90DC00791FC8 /* Products */,
+				B930798AC8F4AFEC3D4C5983 /* Pods */,
+				C7FAE86F2F866A04D0EB6C17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AC9454E1D0E90DC00791FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9454D1D0E90DC00791FC8 /* Heartbeat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AC945CE1D0EEC1F00791FC8 /* Heartbeat */ = {
+			isa = PBXGroup;
+			children = (
+				8AC945CF1D0EEC1F00791FC8 /* AppDelegate.swift */,
+				8AC945D01D0EEC1F00791FC8 /* AudioFiles.plist */,
+				8A5BAB101D11359B00DB7AF1 /* Filters.plist */,
+				8AC9461D1D0FE7BE00791FC8 /* Info.plist */,
+				8AC945D21D0EEC1F00791FC8 /* Resources */,
+				8AC945EB1D0EEC1F00791FC8 /* Source */,
+			);
+			path = Heartbeat;
+			sourceTree = "<group>";
+		};
+		8AC945D21D0EEC1F00791FC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AC945D31D0EEC1F00791FC8 /* Assets.xcassets */,
+				8AC945D41D0EEC1F00791FC8 /* Audio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8AC945D41D0EEC1F00791FC8 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8AC945D51D0EEC1F00791FC8 /* Ana Lucia Fem.49 High.wav */,
+				8AC945D61D0EEC1F00791FC8 /* Ana Lucia Fem.49 Low.wav */,
+				8AC945D71D0EEC1F00791FC8 /* Bel Fem 28 Low.wav */,
+				8AC945D81D0EEC1F00791FC8 /* Bel Fem. 28 High.wav */,
+				8AC945D91D0EEC1F00791FC8 /* Caio Male 26 High.wav */,
+				8AC945DA1D0EEC1F00791FC8 /* Caio Male 26 Low.wav */,
+				8AC945DB1D0EEC1F00791FC8 /* Daniela Fem. 23 Low.wav */,
+				8AC945DC1D0EEC1F00791FC8 /* Daniela Fem.23 High.wav */,
+				8AC945DD1D0EEC1F00791FC8 /* Felipe Male 28 High.wav */,
+				8AC945DE1D0EEC1F00791FC8 /* Filipe Male 28 Low.wav */,
+				8AC945DF1D0EEC1F00791FC8 /* Guto Male 37 High.wav */,
+				8AC945E01D0EEC1F00791FC8 /* Guto Male 37 Low.wav */,
+				8AC945E11D0EEC1F00791FC8 /* Jazzma Fem.24 High.wav */,
+				8AC945E21D0EEC1F00791FC8 /* Jazzma Fem.24 Low.wav */,
+				8AC945E31D0EEC1F00791FC8 /* Lili Female 44 High.wav */,
+				8AC945E41D0EEC1F00791FC8 /* Lili Female 44 Low.wav */,
+				8AC945E51D0EEC1F00791FC8 /* Pedro Male 24 High.wav */,
+				8AC945E61D0EEC1F00791FC8 /* Pedro Male 24 Low.wav */,
+				8AC945E71D0EEC1F00791FC8 /* Roberto Male 66 High.wav */,
+				8AC945E81D0EEC1F00791FC8 /* Roberto Male 66 Low.wav */,
+				8AC945E91D0EEC1F00791FC8 /* Thomaz Male 24 High.wav */,
+				8AC945EA1D0EEC1F00791FC8 /* Thomaz Male 24 Low.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		8AC945EB1D0EEC1F00791FC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8AC946141D0EF02700791FC8 /* Contexts */,
+				8AC946171D0EF02700791FC8 /* Library */,
+				8AC946181D0EF02700791FC8 /* Models */,
+				8AC945EC1D0EEC1F00791FC8 /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8AC945EC1D0EEC1F00791FC8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8AC945ED1D0EEC1F00791FC8 /* LaunchScreen.storyboard */,
+				8AC945EF1D0EEC1F00791FC8 /* Main.storyboard */,
+				8AC945F11D0EEC1F00791FC8 /* HBPlayerViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8AC945F11D0EEC1F00791FC8 /* HBPlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8AC945F21D0EEC1F00791FC8 /* HBPlayerCell.swift */,
+				8AC945F31D0EEC1F00791FC8 /* HBPlayerView.swift */,
+				8AC945F41D0EEC1F00791FC8 /* HBPlayerViewController.swift */,
+				8AC946201D103C1700791FC8 /* HBFilterCell.swift */,
+				8AC946211D103C1700791FC8 /* HBFilterCell.xib */,
+				8A5BAB1C1D11594B00DB7AF1 /* HBFilterParameterCell.swift */,
+				8A5BAB1D1D11594B00DB7AF1 /* HBFilterParameterCell.xib */,
+			);
+			path = HBPlayerViewController;
+			sourceTree = "<group>";
+		};
+		8AC946141D0EF02700791FC8 /* Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				8AC946151D0EF02700791FC8 /* GNKContext */,
+			);
+			path = Contexts;
+			sourceTree = "<group>";
+		};
+		8AC946151D0EF02700791FC8 /* GNKContext */ = {
+			isa = PBXGroup;
+			children = (
+				8AC946161D0EF02700791FC8 /* GNKContext.swift */,
+			);
+			path = GNKContext;
+			sourceTree = "<group>";
+		};
+		8AC946171D0EF02700791FC8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8A5BAB121D11467500DB7AF1 /* HBConstants */,
+				8AC9461A1D0EF0E900791FC8 /* GNKObservableObject */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8AC946181D0EF02700791FC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A5BAB0D1D11348F00DB7AF1 /* HBFilter */,
+				8A5BAB151D1148F200DB7AF1 /* HBFilterParameter */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8AC9461A1D0EF0E900791FC8 /* GNKObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				8AC9461B1D0EF0E900791FC8 /* GNKObservableObject.swift */,
+			);
+			path = GNKObservableObject;
+			sourceTree = "<group>";
+		};
+		B930798AC8F4AFEC3D4C5983 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B4B8E00E6D343AEF6ACFF /* Pods-Heartbeat.debug.xcconfig */,
+				BE81AC0E0CE9F33133AAC51D /* Pods-Heartbeat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7FAE86F2F866A04D0EB6C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0BDE575E68BC915A93EE5E6 /* Pods_Heartbeat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AC9454C1D0E90DC00791FC8 /* Heartbeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AC9455F1D0E90DC00791FC8 /* Build configuration list for PBXNativeTarget "Heartbeat" */;
+			buildPhases = (
+				892E94F6CEB36DB8E7B8AB4A /* 📦 Check Pods Manifest.lock */,
+				8AC945491D0E90DC00791FC8 /* Sources */,
+				8AC9454A1D0E90DC00791FC8 /* Frameworks */,
+				8AC9454B1D0E90DC00791FC8 /* Resources */,
+				E2EFF0A9A8A65883B91D16E0 /* 📦 Embed Pods Frameworks */,
+				C7FDD20801EAF19789348052 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heartbeat;
+			productName = Heartbit;
+			productReference = 8AC9454D1D0E90DC00791FC8 /* Heartbeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AC945451D0E90DC00791FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IDAP;
+				TargetAttributes = {
+					8AC9454C1D0E90DC00791FC8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AC945481D0E90DC00791FC8 /* Build configuration list for PBXProject "Heartbeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AC945441D0E90DC00791FC8;
+			productRefGroup = 8AC9454E1D0E90DC00791FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AC9454C1D0E90DC00791FC8 /* Heartbeat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AC9454B1D0E90DC00791FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC9461F1D0FE7ED00791FC8 /* Info.plist in Resources */,
+				8AC946061D0EEC1F00791FC8 /* Jazzma Fem.24 Low.wav in Resources */,
+				8AC946011D0EEC1F00791FC8 /* Felipe Male 28 High.wav in Resources */,
+				8AC945FA1D0EEC1F00791FC8 /* Ana Lucia Fem.49 Low.wav in Resources */,
+				8AC946081D0EEC1F00791FC8 /* Lili Female 44 Low.wav in Resources */,
+				8AC946091D0EEC1F00791FC8 /* Pedro Male 24 High.wav in Resources */,
+				8AC946101D0EEC1F00791FC8 /* Main.storyboard in Resources */,
+				8AC945FF1D0EEC1F00791FC8 /* Daniela Fem. 23 Low.wav in Resources */,
+				8AC9460F1D0EEC1F00791FC8 /* LaunchScreen.storyboard in Resources */,
+				8AC945F81D0EEC1F00791FC8 /* Assets.xcassets in Resources */,
+				8AC946041D0EEC1F00791FC8 /* Guto Male 37 Low.wav in Resources */,
+				8AC946001D0EEC1F00791FC8 /* Daniela Fem.23 High.wav in Resources */,
+				8AC9460A1D0EEC1F00791FC8 /* Pedro Male 24 Low.wav in Resources */,
+				8AC946231D103C1700791FC8 /* HBFilterCell.xib in Resources */,
+				8AC9460D1D0EEC1F00791FC8 /* Thomaz Male 24 High.wav in Resources */,
+				8AC945FC1D0EEC1F00791FC8 /* Bel Fem. 28 High.wav in Resources */,
+				8AC946071D0EEC1F00791FC8 /* Lili Female 44 High.wav in Resources */,
+				8AC9460E1D0EEC1F00791FC8 /* Thomaz Male 24 Low.wav in Resources */,
+				8A5BAB111D11359B00DB7AF1 /* Filters.plist in Resources */,
+				8AC946031D0EEC1F00791FC8 /* Guto Male 37 High.wav in Resources */,
+				8AC945FD1D0EEC1F00791FC8 /* Caio Male 26 High.wav in Resources */,
+				8AC945FB1D0EEC1F00791FC8 /* Bel Fem 28 Low.wav in Resources */,
+				8AC946051D0EEC1F00791FC8 /* Jazzma Fem.24 High.wav in Resources */,
+				8AC945F91D0EEC1F00791FC8 /* Ana Lucia Fem.49 High.wav in Resources */,
+				8AC945F61D0EEC1F00791FC8 /* AudioFiles.plist in Resources */,
+				8AC946021D0EEC1F00791FC8 /* Filipe Male 28 Low.wav in Resources */,
+				8AC9460B1D0EEC1F00791FC8 /* Roberto Male 66 High.wav in Resources */,
+				8A5BAB1F1D11594B00DB7AF1 /* HBFilterParameterCell.xib in Resources */,
+				8AC9460C1D0EEC1F00791FC8 /* Roberto Male 66 Low.wav in Resources */,
+				8AC945FE1D0EEC1F00791FC8 /* Caio Male 26 Low.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		892E94F6CEB36DB8E7B8AB4A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7FDD20801EAF19789348052 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EFF0A9A8A65883B91D16E0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AC945491D0E90DC00791FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5BAB1E1D11594B00DB7AF1 /* HBFilterParameterCell.swift in Sources */,
+				8A5BAB141D1146AE00DB7AF1 /* HBConstants.swift in Sources */,
+				8AC946191D0EF02700791FC8 /* GNKContext.swift in Sources */,
+				8A5BAB0F1D1134AF00DB7AF1 /* HBFilter.swift in Sources */,
+				8AC946111D0EEC1F00791FC8 /* HBPlayerCell.swift in Sources */,
+				8AC946131D0EEC1F00791FC8 /* HBPlayerViewController.swift in Sources */,
+				8A5BAB171D11490700DB7AF1 /* HBFilterParameter.swift in Sources */,
+				8AC945F51D0EEC1F00791FC8 /* AppDelegate.swift in Sources */,
+				8AC9461C1D0EF0E900791FC8 /* GNKObservableObject.swift in Sources */,
+				8AC946221D103C1700791FC8 /* HBFilterCell.swift in Sources */,
+				8AC946121D0EEC1F00791FC8 /* HBPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AC945ED1D0EEC1F00791FC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC945EE1D0EEC1F00791FC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8AC945EF1D0EEC1F00791FC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AC945F01D0EEC1F00791FC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AC9455D1D0E90DC00791FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AC9455E1D0E90DC00791FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AC945601D0E90DC00791FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3B4B8E00E6D343AEF6ACFF /* Pods-Heartbeat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heartbeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idapgroup.Heartbeat;
+				PRODUCT_NAME = Heartbeat;
+			};
+			name = Debug;
+		};
+		8AC945611D0E90DC00791FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE81AC0E0CE9F33133AAC51D /* Pods-Heartbeat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Heartbeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idapgroup.Heartbeat;
+				PRODUCT_NAME = Heartbeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AC945481D0E90DC00791FC8 /* Build configuration list for PBXProject "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC9455D1D0E90DC00791FC8 /* Debug */,
+				8AC9455E1D0E90DC00791FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AC9455F1D0E90DC00791FC8 /* Build configuration list for PBXNativeTarget "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC945601D0E90DC00791FC8 /* Debug */,
+				8AC945611D0E90DC00791FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AC945451D0E90DC00791FC8 /* Project object */;
+}

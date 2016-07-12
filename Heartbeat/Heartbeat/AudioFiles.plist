@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Files</key>
+	<array>
+		<string>Thomaz Male 24 High</string>
+		<string>Thomaz Male 24 Low</string>
+		<string>Roberto Male 66 High</string>
+		<string>Roberto Male 66 Low</string>
+		<string>Pedro Male 24 High</string>
+		<string>Pedro Male 24 Low</string>
+		<string>Lili Female 44 High</string>
+		<string>Lili Female 44 Low</string>
+		<string>Jazzma Fem.24 High</string>
+		<string>Jazzma Fem.24 Low</string>
+		<string>Guto Male 37 High</string>
+		<string>Guto Male 37 Low</string>
+		<string>Bel Fem. 28 High</string>
+		<string>Bel Fem 28 Low</string>
+		<string>Ana Lucia Fem.49 Low</string>
+		<string>Ana Lucia Fem.49 High</string>
+		<string>Daniela Fem. 23 Low</string>
+		<string>Daniela Fem.23 High</string>
+		<string>Felipe Male 28 High</string>
+		<string>Filipe Male 28 Low</string>
+		<string>Caio Male 26 Low</string>
+		<string>Caio Male 26 High</string>
+	</array>
+</dict>
+</plist>
