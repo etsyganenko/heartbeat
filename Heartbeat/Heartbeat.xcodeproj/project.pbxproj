@@ -305,12 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AC9455F1D0E90DC00791FC8 /* Build configuration list for PBXNativeTarget "Heartbeat" */;
 			buildPhases = (
-				892E94F6CEB36DB8E7B8AB4A /* 📦 Check Pods Manifest.lock */,
+				892E94F6CEB36DB8E7B8AB4A /* [CP] Check Pods Manifest.lock */,
 				8AC945491D0E90DC00791FC8 /* Sources */,
 				8AC9454A1D0E90DC00791FC8 /* Frameworks */,
 				8AC9454B1D0E90DC00791FC8 /* Resources */,
-				E2EFF0A9A8A65883B91D16E0 /* 📦 Embed Pods Frameworks */,
-				C7FDD20801EAF19789348052 /* 📦 Copy Pods Resources */,
+				E2EFF0A9A8A65883B91D16E0 /* [CP] Embed Pods Frameworks */,
+				C7FDD20801EAF19789348052 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -395,14 +395,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		892E94F6CEB36DB8E7B8AB4A /* 📦 Check Pods Manifest.lock */ = {
+		892E94F6CEB36DB8E7B8AB4A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,14 +410,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C7FDD20801EAF19789348052 /* 📦 Copy Pods Resources */ = {
+		C7FDD20801EAF19789348052 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,14 +425,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Heartbeat/Pods-Heartbeat-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2EFF0A9A8A65883B91D16E0 /* 📦 Embed Pods Frameworks */ = {
+		E2EFF0A9A8A65883B91D16E0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
